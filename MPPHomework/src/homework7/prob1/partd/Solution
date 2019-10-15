@@ -1,0 +1,10 @@
+inside removeDuplicates function when comparing employees,
+if hashmap is already containing the employee object then the code changes the property "visited" to true.
+which changes the state of object and treated as different object.
+
+for example
+	"Joe" 100 false
+	"Joe" 100 true 
+
+are different objects.
+so same object could added more than once.

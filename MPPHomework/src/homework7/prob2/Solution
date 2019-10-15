@@ -1,0 +1,3 @@
+Didn't override hashCode method in Employee class.
+Because when put method of HashMap called, it uses of hashCode function to generate indexing.
+so without correct hashCode function, the HashMap works in wrong manner.

@@ -44,7 +44,7 @@ public class Main {
 		empList.add(s1);
 		empList.add(s2);
 		for(Employee e: empList)
-			System.out.println(e.calcCompensation(2019, 8));
+			System.out.println(e.calcCompensation(2019, LocalDate.now().getMonthValue()));
 		
 	}
 

@@ -1,0 +1,4 @@
+Contains function uses equals method of Object but in Employee class
+didn't override equals method.
+equals method takes Object argument but in this case equals method took Employee argument.
+so it is more like overloading than overriding.
